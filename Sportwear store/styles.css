@@ -1,0 +1,135 @@
+/* استهداف العناصر الرئيسية */
+body {
+  background-color: rgb(221, 221, 221);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2, h3 {
+    color: #ff7423;
+  }
+  
+  /* استهداف الهيدر */
+  header {
+    background-color: #7972ee;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* استهداف النافذة التنقل */
+  nav {
+    background-color: #0c377d;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline-block;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  /* استهداف البانر */
+  #banner {
+    background-image: url(s.jpg);
+    background-size: cover;
+    color: #e3ff0c;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  /* استهداف المنتجات المميزة */
+  #featured-products {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .product {
+    display: inline-block;
+    margin: 20px;
+  }
+  
+  .product img {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .product h3 {
+    margin: 10px 0;
+  }
+  
+  .product p {
+    color: #2f1dcf;
+  }
+  
+  .product button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  /* استهداف القسم */
+  section {
+    padding: 50px;
+  }
+  
+  /* استهداف الفوتر */
+  footer {
+    background-color: #7972ee;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* استهداف العروض */
+  #offers {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .offer {
+    display: inline-block;
+    margin: 20px;
+  }
+  
+  .offer img {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .offer h3 {
+    margin: 10px 0;
+  }
+  
+  .offer p {
+    color: #1a82c3;
+  }
+  
+  /* استهداف الاتصال */
+  #contact {
+    padding: 50px;
+  }
+  
+  /* استهداف الملف الشخصي */
+  #profile {
+    padding: 50px;
+  }
+  
+  .customer-name,
+  .address,
+  .phone-number,
+  .email {
+    font-weight: bold;
+  }
+  
